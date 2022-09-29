@@ -1,0 +1,119 @@
+<!Doctype html>
+
+<head>
+  <title>Feedback</title>
+</head>
+<style>
+  body {
+    background-image:url(https://wallpaper.dog/large/11027692.jpg);
+    
+    background-repeat: no-repeat;
+  }
+
+  form {
+    background-color: rgb(0, 0, 0, 0.5);
+    margin: auto;
+    color: #ffffff;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-radius: 0px 0px 15px 15px;
+  }
+
+  .f1 {
+    width: 555px;
+    height: 560px;
+    margin: -125px auto;
+    position: relative;
+    top: 200px;
+
+  }
+
+  .p1 {
+    font-size: 25px;
+  }
+
+  .p2 {
+    font-size: 27px;
+    background-color: rgb(0, 0, 0, 0.7);
+    margin: -60px 0px;
+    position: relative;
+    color: #ffffff;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+  }
+
+  .input1 {
+    font-size: 25px;
+  }
+
+  .input2 {
+    font-size: 20px;
+  }
+</style>
+
+<body class="b1">
+  <form class="f1">
+    <p class="p2"><b>Customer Feedback Form</b></p><br><br><br><br>
+
+    <p class="p1"><b> How Was Your Experience With Our Staff</b></p>
+
+    <input type="radio" id="bad" name="How Was Your Experience With Us" value="bad">
+    <label for="bad " class="input2">Not Satisfying</label>
+
+    <input type="radio" id="good" name="How Was Your Experience With Us" value="good">
+    <label for="good " class="input2">Okay</label>
+
+    <input type="radio" id="exc" name="How Was Your Experience With Us" value="exc">
+    <label for="exc " class="input2">Excellent</label> <br>
+
+    <p class="p1"><b> How Was Your Experience With Our Website</b></p>
+
+    <input type="radio" id="bad" name="How Was Your Experience With Our Website" value="bad">
+    <label for="bad " class="input2">Not Satisfying</label>
+
+    <input type="radio" id="good" name="How Was Your Experience With Our Website " value="good">
+    <label for="good " class="input2">Okay</label>
+
+    <input type="radio" id="exc" name="How Was Your Experience With Our Website" value="exc">
+    <label for="exc " class="input2">Excellent</label> <br>
+
+    <p class="p1"><b>How Was The Food Quality</b></p>
+
+    <input type="radio" id="bad" name="How Was The Food Quality" value="bad">
+    <label for="bad " class="input2">Poor</label>
+
+
+    <input type="radio" id="okay" name="How Was The Food Quality" value="okay">
+    <label for="okay " class="input2">Okay</label>
+
+    <input type="radio" id="good" name="How Was The Food Quality" value="good">
+    <label for="good " class="input2">Good</label>
+
+    <input type="radio" id="grt" name="How Was The Food Quality" value="grt">
+    <label for="grt " class="input2">Great</label><br><br>
+
+
+    <label for="Yname">
+      <p class="p1"><b>Any Feedback/Suggestions:</b></p>
+    </label><br>
+    <input type="text" placeholder="Feedback/Suggestions" id="Yname" name="Yname" class="input1"><br><br>
+
+
+
+
+
+
+  <button onclick="myFunction()"><input type="submit" value="Submit" class="input1"></button>
+    
+  </form>
+
+  <!-- <script></script> -->
+  <script>
+    function myFunction(){
+      alert("Thanks For Your Feedback")
+    }
+  </script>
+</body>
+
+</html>

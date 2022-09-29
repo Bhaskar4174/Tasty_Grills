@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Table Reservation</title>
+</head>
+<style>
+    .b1{background: url(../images/resv\ back1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        }
+    form{
+        background-color:rgb(0,0,0,0.5);
+      margin: auto;
+      color: #ffffff;
+      padding: 10px 0px 10px 0px;
+      text-align: left;
+      border-radius: 0px 0px 15px 15px;
+      font-size: 20px;
+    }
+    .f1{
+        width: 600px;
+        margin: 0px auto;
+        position: relative;
+        top: 100px;
+    }
+    .h1{
+        text-align: center;
+        font-size: 50px;
+        background-color:rgb(0,0,0,0.7);
+        margin: -88.5px 0px;
+        position: relative;
+        color: rgb(10, 2002, 209);
+        padding: 10px 0px 10px 0px;
+        text-align: center;
+        border-radius: 15px 15px 0px 0px;
+    }
+    .wrapper input{
+        border:none;
+        cursor: pointer;
+        position: relative;
+    }
+    .wrapper select{
+        border:none;
+        cursor: pointer;
+    }
+    
+</style>
+<body class="b1">
+     
+    
+    
+    <form class="f1">
+        <h1 class="h1"> <strong> <em>Table Reservation</em> </strong> </h1><br> <br><br><br><br>
+        <div class="wrapper">
+            Name:
+            <input type="text" name="myname">
+        </div>
+        <br>
+        <div class="wrapper">
+            Phone Number:
+            <input type="tel" max="10" name="myphone number">
+        </div>
+        <br>
+        <div class="wrapper">
+            Email:
+            <input type="text" name="myemail">
+        </div class="wrapper">
+        <br>
+        <div class="wrapper">Booking Date & Time:
+           <input id="datepicker" name="text" type="datetime-local" placeholder="Booking Date & time" required="">
+            </div>
+            <br>
+            <div class="wrapper">
+                No.Adults:
+                <select class="form-control">
+                    <option value="">Number of Adults</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                    <option>13</option>
+                    <option>14</option>
+                </select>
+            </div>
+            <br>
+            <div class="wrapper">
+                No.child:
+                <select class="form-control">
+                    <option value="">Number of Childrens</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                    <option>13</option>
+                    <option>14</option>
+                </select>
+            </div>
+            <br>
+            <div class="wrapper">
+                <button onclick="myFunction()"><input type="submit" value="RESERVE A TABLE"></button>
+                
+            </div>
+            <br>
+
+    </form>
+
+
+    <!-- <script></script> -->
+    <script>
+        function myFunction(){
+            alert("Table Reservation Sucessfull")
+        }
+    </script>
+    
+</body>
+</html>
